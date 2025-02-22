@@ -14,13 +14,13 @@ if (strlen($_SESSION['bpmsuid']==0)) {
   <head>
  
 
-    <title>Beauty Parlour Management System | Booking History</title>
+    <title>Beauty Parlour Management System | Booking </title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700,700i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?famil=Open+Sans&display=swap" rel="stylesheet">
   </head>
   <body id="home">
 <?php include_once('includes/header.php');?>
@@ -72,7 +72,7 @@ $(function () {
             <div>
                 <div class="cont-details">
                    <div class="table-content table-responsive cart-table-content m-t-30">
-                   <h4 style="padding-bottom: 20px;text-align: center;color: blue;">Appointment Details</h4>
+                   <h4 style="padding-bottom: 25px;text-align: center;color:#DAF7A6;">Appointment Details</h4>
                         <?php
 $cid=$_GET['aptnumber'];
 $ret=mysqli_query($con,"select tbluser.FirstName,tbluser.LastName,tbluser.Email,tbluser.MobileNumber,tblbook.ID as bid,tblbook.AptNumber,tblbook.AptDate,tblbook.AptTime,tblbook.Message,tblbook.BookingDate,tblbook.Remark,tblbook.Status,tblbook.RemarkDate from tblbook join tbluser on tbluser.ID=tblbook.UserID where tblbook.AptNumber='$cid'");
@@ -99,12 +99,12 @@ while ($row=mysqli_fetch_array($ret)) {
     <td><?php  echo $row['MobileNumber'];?></td>
   </tr>
    <tr>
-    <th>Appointment Date</th>
+    <th> Date</th>
     <td><?php  echo $row['AptDate'];?></td>
   </tr>
  
 <tr>
-    <th>Appointment Time</th>
+    <th> Time</th>
     <td><?php  echo $row['AptTime'];?></td>
   </tr>
   
