@@ -7,7 +7,7 @@ include('includes/dbconnection.php');
 <html lang="en">
   <head>
     
-    <title>Beauty Parlour Management System | About us Page</title>
+    <title>Beauty Parlour Management System/Système de gestion de la salle de beauté | About us Page</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -63,7 +63,7 @@ $(function () {
             </div>
                 <div class="cwp4-text col-xl-6 ">
                     <div class="posivtion-grid">
-                    <h3 class="">Beauty and success starts here</h3>
+                    <h3 class="">Beauty and success starts here/La beauté et le succès commence ici</h3>
                     <div class="hair-two-colums">
                         <div class="hair-left">
 <h5>
@@ -138,7 +138,7 @@ while ($row=mysqli_fetch_array($ret)) {
 	<span class="fa fa-long-arrow-up"></span>
 </button>
 <script>
-	// When the user scrolls down 20px from the top of the document, show the button
+	// When the user scrolls down 25px from the top of the document, show the button
 	window.onscroll = function () {
 		scrollFunction()
 	};
@@ -151,10 +151,10 @@ while ($row=mysqli_fetch_array($ret)) {
 		}
 	}
 
-	// When the user clicks on the button, scroll to the top of the document
-	function topFunction() {
-		document.body.scrollTop = 0;
-		document.documentElement.scrollTop = 0;
+	// When the user clicks on the button, scroll to the middle of the document
+	function middleFunction() {
+		document.body.scrollmiddle = 0;
+		document.documentElement.scrollmiddle = 0;
 	}
 </script>
 <!-- /move top -->
