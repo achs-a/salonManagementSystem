@@ -162,7 +162,7 @@ while ($row=mysqli_fetch_array($ret)) {
                         </div>
                         <div style="padding-top: 30px;">
                             <label>Phone Number</label>
-                           <input type="text" class="form-control" placeholder="Phone Number" required="" name="Phonenumber" pattern="[0-9]+" maxlength="10"></div>
+                           <input type="text" class="form-control" placeholder="Phone Number" required="" name="number" pattern="[0-9]+" maxlength="10"></div>
                            <div style="padding-top: 30px;">
                             <label>Email address</label>
                             <input type="email" class="form-control" class="form-control" placeholder="Email address" required="" name="email">
@@ -172,8 +172,8 @@ while ($row=mysqli_fetch_array($ret)) {
                            <input type="password" class="form-control" name="password" placeholder="Password" required="true">
                        </div>
                        <div style="padding-top: 30px;">
-                        <label>Confirm password</label>
-                            <input type="password" class="form-control" name="Confirmpassword" placeholder="Confirm password" required="true">
+                        <label>repeat password</label>
+                            <input type="password" class="form-control" name="repeatpassword" placeholder="repeat password" required="true">
                         </div>
                       
                         <button type="submit" class="btn btn-contact" name="submit">Signup</button>
