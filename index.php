@@ -40,8 +40,8 @@ $(function () {
     <section class="slide slide-one">
       <div class="container">
         <div class="banner-text">
-          <h4>Creative Styling</h4>
-          <h3>beauty salon<br>
+          <h4>Best Creative Styling</h4>
+          <h3>Best beauty salon<br>
             fashion for woman</h3>
 
             <a href="book-appointment.php" class="btn logo-button top-margin">Get An Appointment</a>
@@ -53,8 +53,8 @@ $(function () {
     <section class="slide slide-two">
       <div class="container">
         <div class="banner-text">
-          <h4>Creative Styling</h4>
-          <h3>beauty salon<br>
+          <h4>Best Creative Styling</h4>
+          <h3>Best beauty salon<br>
             fashion for woman</h3>
           <a href="book-appointment.php" class="btn logo-button top-margin">Get An Appointment</a>
         </div>
