@@ -115,7 +115,7 @@ while ($row=mysqli_fetch_array($ret)) {
                             <span class="fa fa-phone text-primary"></span>
                         </div>
                         <div class="cont-right">
-                            <h6>Call Us</h6>
+                            <h6>Call ME</h6>
                             <p class="para"><a href="tel:+44 99 555 42">+<?php  echo $row['MobileNumber'];?></a></p>
                         </div>
                     </div>
