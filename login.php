@@ -4,7 +4,7 @@ error_reporting(0);
 include('includes/dbconnection.php');
 error_reporting(0);
 
-if(isset($_POST['login']))
+if(isset($_POST['logout']))
   {
     $emailcon=$_POST['emailcont'];
     $password=md5($_POST['password']);
