@@ -14,7 +14,7 @@ if (strlen($_SESSION['bpmsuid']==0)) {
   <head>
  
 
-    <title>Beauty Parlour Management System | Booking History</title>
+    <title>welcome Parlour Management System | Booking History</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
