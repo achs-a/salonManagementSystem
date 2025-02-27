@@ -18,6 +18,10 @@ include('includes/dbconnection.php');
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   </head>
   <body id="home">
+	  <p style="color: blue; font-size: 20px; font-family: italic, sans-serif; text-align: center;" >
+       Duca inzara
+       dutera black shampo FROM netherland
+       dutera kanta yomubwoko INDIAN KANTA		  
 <?php include_once('includes/header.php');?>
 
 <script src="assets/js/jquery-3.3.1.min.js"></script> <!-- Common jquery plugin -->
