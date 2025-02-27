@@ -105,7 +105,7 @@ while ($row=mysqli_fetch_array($ret)) {
                         </div>
                         <div class="cont-right">
                             <h6>Call Us</h6>
-                            <p class="para"><a href="tel:+44 99 555 42">+<?php  echo $row['MobileNumber'];?></a></p>
+                            <p class="para"><a href="tel:+0788 65 55 42">+<?php  echo $row['PhoneNumber'];?></a></p>
                         </div>
                     </div>
                     <div class="cont-top margin-up">
@@ -122,7 +122,7 @@ while ($row=mysqli_fetch_array($ret)) {
                             <span class="fa fa-map-marker text-primary"></span>
                         </div>
                         <div class="cont-right">
-                            <h6>Address</h6>
+                            <h6>Location<h6>
                             <p class="para"> <?php  echo $row['PageDescription'];?></p>
                         </div>
                     </div>
