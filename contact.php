@@ -62,7 +62,7 @@ $(function () {
             <div class="main-titles-head text-center">
             <h3 class="header-name ">
                 
- Contact Us
+ Contact us from any where 
             </h3>
         </div>
 </div>
