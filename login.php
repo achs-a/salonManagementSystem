@@ -24,7 +24,7 @@ if(isset($_POST['logout']))
   <head>
  
 
-    <title>salon Management sssss | Login</title>
+    <title>Salon Management System(LTD) | Login</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -93,6 +93,8 @@ while ($row=mysqli_fetch_array($ret)) {
                         <div class="cont-right">
                             <h6>Call Us</h6>
                             <p class="para"><a href="tel:+44 99 555 42">+<?php  echo $row['MobileNumber'];?></a></p>
+				<strong><marquee behavior="infinite" direction="right"><i class="fa-solid fa-phone" >tel:+44 99 555 42</i></marquee></strong>
+    <strong><marquee bahavior="infinite" direction="left">Welcome to salon management system</marquee></strong>
                         </div>
                     </div>
                     <div class="cont-top margin-up">
