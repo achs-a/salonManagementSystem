@@ -24,7 +24,7 @@ if(isset($_POST['logout']))
   <head>
  
 
-    <title>salon Management System | Login</title>
+    <title>salon Management sssss | Login</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
