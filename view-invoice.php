@@ -95,9 +95,9 @@ while ($row=mysqli_fetch_array($ret)) {
                                 <th>Name</th> 
                                 <td><?php echo $row['FirstName']?> <?php echo $row['LastName']?></td> 
                                 <th>Contact no.</th> 
-                                <td><?php echo $row['MobileNumber']?></td>
+                                <td><?php echo $row['PhoneNumber']?></td>
                                 <th>Email </th> 
-                                <td><?php echo $row['Email']?></td>
+                                <td><?php echo $row['EmailAddress']?></td>
                             </tr> 
                              <tr> 
                                 <th>Registration Date</th> 
@@ -142,7 +142,7 @@ $gtotal+=$subtotal;
 
 </tr>
 </table>
-  <p style="margin-top:1%"  align="center">
+  <p style="margin-top:1%" align="center">
   <i class="fa fa-print fa-2x" style="cursor: pointer;"  OnClick="CallPrint(this.value)" ></i>
 </p>
                     </div> </div>
