@@ -36,7 +36,7 @@
                         <a class="nav-link" href="signup.php">Signup</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="login.php">Login</a>
+                        <a class="nav-link" href="login.php">Signin</a>
                     </li><?php }?>
                     <?php if (strlen($_SESSION['bpmsuid']>0)) {?>
                     <li class="nav-item">
