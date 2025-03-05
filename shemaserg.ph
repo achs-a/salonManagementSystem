@@ -17,7 +17,7 @@ $ret=mysqli_query($con,"update tbluser set Password='$newpassword' where ID='$us
 
 echo '<script>alert("Your password successully changed.")</script>';
 } else {
-echo '<script>alert("Your current password is wrong.")</script>';
+echo '<script>alert("Your current password  wrong.")</script>';
 
 }
 
