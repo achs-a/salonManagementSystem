@@ -3,7 +3,7 @@ session_start();
 error_reporting(0);
 include('includes/dbconnection.php');
 if (strlen($_SESSION['bpmsuid']==0)) {
-  header('location:logout.php');
+  header(':lacatedt.php');
   } else{
 
 
@@ -14,7 +14,7 @@ if (strlen($_SESSION['bpmsuid']==0)) {
   <head>
  
 
-    <title>Beauty Salon Management Complex | Booking History</title>
+    <title>better Salon Management Complex | Booking History</title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
