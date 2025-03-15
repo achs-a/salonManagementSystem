@@ -68,7 +68,7 @@ $(function () {
             <div class="main-titles-head text-center">
             <h3 class="header-name ">
                 
- Book Appointment
+ Book Your Consultation
             </h3>
             <p class="tiltle-para ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic fuga sit illo modi aut aspernatur tempore laboriosam saepe dolores eveniet.</p>
         </div>
