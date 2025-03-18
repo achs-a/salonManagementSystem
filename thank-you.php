@@ -14,7 +14,10 @@ if (strlen($_SESSION['bpmsuid']==0)) {
   <head>
  
 
-    <title>Beauty Parlour Management System | Thank You page</title>
+    <title>
+      Beauty Parlour Management System | Thank You page
+      welcome again
+    </title>
 
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -47,7 +50,7 @@ $(function () {
             <div class="main-titles-head text-center">
             <h3 class="header-name ">
                 
-Appointment Confirmation
+Appointment Confirmation thank you darling
             </h3>
         </div>
 </div>
