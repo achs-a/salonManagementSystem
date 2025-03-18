@@ -17,7 +17,7 @@ echo "<script>window.location.href='accepted-appointment.php'</script>";
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>BPMS || Accepted Appointment</title>
+<title>BPMS || Accepted Appointment </title>
 
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- Bootstrap Core CSS -->
@@ -60,6 +60,7 @@ echo "<script>window.location.href='accepted-appointment.php'</script>";
 			<div class="main-page">
 				<div class="tables">
 					<h3 class="title1">Accepted Appointment</h3>
+					<h1>my darling</h1>
 					
 					
 				
