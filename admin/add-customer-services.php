@@ -69,7 +69,7 @@ echo "<script>window.location.href ='invoices.php'</script>";
 		<div id="page-wrapper">
 			<div class="main-page">
 				<div class="tables">
-					<h3 class="title1">Assign Services</h3>
+					<h3 class="title1">Assign Services sandrine</h3>
 					
 					
 				
